@@ -41,7 +41,7 @@ serde_json = { version = "1.0.93", features = ["preserve_order"] }
 slotmap = "1.0.7"
 thiserror = "1.0.38"
 tokenizers = { version = "0.20.0", features = ["http"] }
-tokio = { version = "1.32.0", features = [
+tokio = { version = "1.43.1", features = [
   "rt",
   "rt-multi-thread",
   "parking_lot",
